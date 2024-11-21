@@ -31,6 +31,12 @@ Before running the bot, make sure you have [Deno](https://deno.land/) installed 
    - `WALLET_PASSWORD` is optional; it is used to access your wallet.
    - `MONERO_NODE_URL` is optional; it is used to connect to a custom Monero node (leave blank to use the default).
 
+4. Create a `data` folder in the root of the project for the data of the bot or simply run the command :
+
+   ```
+   mkdir data
+   ```
+
 ## Running the Bot
 
 To run the bot, use the following command:
