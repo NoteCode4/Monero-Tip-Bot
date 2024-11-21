@@ -85,7 +85,7 @@ You can try the following steps:
 
 ## Commands
 
-- `/tip <user_id> <amount>` - Tip a user with a specified amount of Monero. The user must reply to a message from the person they want to tip.
+- `/tip <amount>` - Tip a user with a specified amount of Monero. The user must reply to a message from the person they want to tip.
 - `/rain <amount> <number_of_Users>` - Send a rain of Monero to multiple users in the group. Format the command as `/rain <amount> <number_of_Users>`. 
 
 Both commands will require a transaction fee, as they interact with the Monero blockchain.
