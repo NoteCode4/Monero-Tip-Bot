@@ -619,7 +619,7 @@ bot.on('callback_query', async (ctx) => {
       }
       const address = await wallet.address(data.walletIndex, numC);
 
-      ctx.reply(`Hello ${ctx.callbackQuery.from.id.first_name} thank you for using Monero Tip Bot,\n\nYou're current Monero address : \`${address}\``, {
+      ctx.reply(`Hello ${ctx.callbackQuery.from?.first_name} thank you for using Monero Tip Bot,\n\nYou're current Monero address : \`${address}\``, {
         reply_markup: mainKeyboard,
         parse_mode: "Markdown"
       })
